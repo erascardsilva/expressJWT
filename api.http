@@ -1,0 +1,17 @@
+###GET
+GET http://localhost:3000/  
+Content-Type: application/json
+
+
+### POST
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "user": "Erasmo",
+    "passw": "3727"
+}
+
+### GET lista
+GET http://localhost:3000/ver
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzExMzE3MDAwLCJleHAiOjE3MTEzMTcxNTB9.xVuHyoCzzPGg7Q3mQilIHPbmD0x8mLLeQfioJ5elvIg
